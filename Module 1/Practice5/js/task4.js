@@ -4,7 +4,7 @@ let name = '';
 
 do {
     name = prompt('Введіть ім’я свого улюбленого героя');
-    console.log('Ім’я вашего героя : ' ,name);
+    console.log('Ім’я вашего героя : ', name);
     if (name.length > 6) {
         console.log("Имя слишком долгое");
         break
