@@ -6,6 +6,8 @@ const salaries = {
     Pete: 130
 }
 
-const sum = salaries.John + salaries.Ann + salaries.Pete;
+for (const i in salaries) {
+    sum += salaries[i]
+}
 
 console.log(sum);
