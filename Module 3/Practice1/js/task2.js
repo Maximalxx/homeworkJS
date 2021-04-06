@@ -6,8 +6,8 @@ const salaries = {
     Pete: 130
 }
 
+let sum = 0;
 for (const i in salaries) {
-    sum += salaries[i]
+    sum += salaries[i];
 }
-
 console.log(sum);
